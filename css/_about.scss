@@ -1,0 +1,66 @@
+//
+// aboutのスタイル
+//
+
+
+.profile-photo {
+    text-align: center;
+    @media (min-width: 769px)  {
+        text-align: left;
+    }
+}
+
+.profile-icon {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    @media (min-width: 769px)  {
+        width: 415px;
+        height: 415px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }  
+}
+
+.about-box{
+    margin-top: 75px;
+    @media (min-width: 769px)  {
+        width: 90%;
+        display: flex;
+        margin-left: 200px;
+    }
+}
+
+.about-text h2 {
+    font-family: "Yusei Magic";
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    @media (min-width: 769px)  {
+        font-size: 24px;
+        font-size: 2.4rem;
+        width: 500px;
+    }
+}
+
+.about-text p {
+    font-family: "Yusei Magic";
+    font-size: 20px;
+    font-size: 2.0rem;
+    @media (min-width: 769px)  {
+        font-size: 24px;
+        font-size: 2.4rem;
+        width: 500px;
+    }
+}
+
+.about-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+     @media (min-width: 769px)  {
+        width: 90%;
+        margin-left: 85px;
+        margin-top: 51px;
+    }
+}

@@ -1,0 +1,70 @@
+//
+// contactのスタイル
+//
+
+
+.contact-main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    @media (min-width: 769px)  {
+        margin-top: 120px;
+    } 
+}
+
+.contact-box {
+    margin-bottom: 50px;
+    @media (min-width: 769px)  {
+        display: flex;
+        margin-left: 250px;
+    } 
+}
+
+.contact-box p {
+    font-family: "Yusei Magic";
+    font-size: 24px;
+    font-size: 2.4rem;
+    @media (min-width: 769px)  { 
+        width: 250px;
+        margin-top: 10px;
+        font-size: 30px;
+        font-size: 3.0rem;
+    } 
+}
+
+.button {
+    font-family: "Yusei Magic";
+    width: 82px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-size: 2.4rem;
+    @media (min-width: 769px)  { 
+        width: 130px;
+        height: 74px;
+        margin-left: 550px;
+        font-size: 30px;
+        font-size: 3.0rem;
+    } 
+}
+
+#message {
+    width: 300px;
+    height: 40px;
+    @media (min-width: 769px)  { 
+        width: 450px;
+        height: 250px;
+        margin-left: 50px;
+        } 
+}
+
+.box {
+    width: 300px;
+    height: 40px;
+    @media (min-width: 769px)  { 
+        width: 450px;
+        height: 50px;
+        margin-left: 50px;
+    }  
+}

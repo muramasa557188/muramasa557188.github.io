@@ -1,0 +1,200 @@
+//
+// worksのスタイル
+//
+
+
+.work-main {
+    text-align: center;
+}
+
+.work-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    @media (min-width: 769px)  { 
+        width: 70%;
+    } 
+}
+
+.work-icon {
+    border: 2px solid $black;
+    width: 250px;
+    height: auto;
+    @media (min-width: 769px)  {
+        width: 450px;
+        height: auto;
+    }  
+}
+
+.work-box {
+    margin-top: 55px;
+    @media (min-width: 769px)  { 
+        margin-top: 127px;
+    }  
+}
+
+
+
+.work-box, .work-box3 {
+    text-align: center;
+    @media (min-width: 769px)  { 
+        display: flex;
+        
+    }  
+}
+
+.work-box2 {
+    margin-top: 60px;
+    @media (min-width: 769px)  { 
+        display: flex;
+        flex-direction: row-reverse;
+        
+        margin-top: 81px;
+    } 
+}
+
+.work-box3 {
+    margin-top: 60px;
+    @media (min-width: 769px)  { 
+        margin-top: 81px;
+    } 
+}
+
+
+.work-box img:hover {
+    opacity: 0.5;
+}
+
+.work-box2 img:hover {
+    opacity: 0.5;
+}
+
+.work-box3 img:hover {
+    opacity: 0.5;
+}
+
+.work-box h2 {
+    font-family: "Yusei Magic";
+    font-size: 24px;
+    font-size: 2.4rem;
+    width: 100%;
+    margin-top: 38px;
+    text-align: center;
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+    }  
+}
+
+.work-box2 h2 {
+    font-family: "Yusei Magic";
+    font-size: 24px;
+    font-size: 2.4rem;
+    width: 100%;
+    margin-top: 38px;
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+    }  
+}
+
+.work-box3 h2 {
+    font-family: "Yusei Magic";
+    font-size: 24px;
+    font-size: 2.4rem;
+    width: 100%;
+    margin-top: 38px;
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+    }  
+}
+
+.work-text, .work-text2,.work-text3   {
+    font-family: "Yusei Magic";
+    font-size: 20px;
+    font-size: 2.0rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media (min-width: 769px)  { 
+        font-size: 24px;
+        font-size: 2.4rem;
+        width: 90%;
+    }  
+}
+
+.work-text p, .work-text2 p,.work-text3  p {
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    @media (min-width: 769px)  { 
+        width: 80%;
+    }
+} 
+
+
+.work-text,.work-text3 {
+    @media (min-width: 769px)  { 
+        margin-left: 155px;
+        text-align: left;
+    } 
+}
+
+.work-text2 {
+    @media (min-width: 769px)  { 
+        /*margin-right: 210px;*/
+        text-align: left;
+    } 
+}
+
+
+.work-text h2 {
+    
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+        text-align: left;
+    }  
+}
+
+.work-text2 h2 {
+    
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+    }  
+}
+
+.work-text3 h2 {
+    
+    @media (min-width: 769px)  { 
+        margin-top: 0;
+        font-size: 30px;
+        font-size: 3.0rem;
+        width: 100%;
+    }  
+}
+
+.work-h2 {
+   @media (min-width: 769px)  {
+       display: none;
+   }
+}
+
+.work-h2-2 {
+   display: none;
+   @media (min-width: 769px)  {
+       display: block;
+   }
+}

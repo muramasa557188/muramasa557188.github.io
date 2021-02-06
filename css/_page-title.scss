@@ -1,0 +1,12 @@
+//
+// ページタイトルのスタイル
+//
+
+
+.page-title {
+    font-family: "Rock Salt";
+    @media (min-width: 769px) {
+    font-size: 48px;
+    font-size: 4.8rem;
+    }
+}

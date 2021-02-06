@@ -1,0 +1,14 @@
+@charset 'UTF-8'; /* 文字コードの指定 */
+
+// Google Fontsの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Yusei+Magic&display=swap');
+
+@import "base";
+@import "header";
+@import "page-title";
+@import "top";
+@import "footer";
+@import "about";
+@import "works";
+@import "hobby";
+@import "contact";
