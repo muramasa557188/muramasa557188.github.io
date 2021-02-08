@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 文字コードの指定 */
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Yusei+Magic&display=Noto+Sans+JP:wght@300&display=swap");
 html {
   font-size: 62.5%; }
 
@@ -102,7 +102,7 @@ span {
     list-style: none; }
     .pc-nav-list li {
       margin: 0 0 0 3rem;
-      width: 120px; } }
+      width: 70px; } }
 
 a {
   text-decoration: none;
@@ -110,12 +110,13 @@ a {
   color: #000000; }
   @media (min-width: 769px) {
     a {
-      font-size: 28px; } }
+      font-size: 16px;
+      font-size: 1.6rem; } }
 
 @media (min-width: 769px) {
   .pc-nav-list a:hover {
-    font-size: 30px;
-    font-size: 3.0rem; } }
+    font-size: 20px;
+    font-size: 2.0rem; } }
 
 .page-title {
   font-family: "Rock Salt"; }
@@ -158,7 +159,7 @@ a {
       font-size: 3.6rem; } }
 
 footer {
-  margin-top: 200px;
+  margin-top: 350px;
   height: 50px; }
   @media (min-width: 769px) {
     footer {
@@ -172,12 +173,12 @@ footer {
 small {
   color: #0e1ee7;
   font-family: "Rock Salt";
-  font-size: 15px;
-  font-size: 1.5rem; }
+  font-size: 10px;
+  font-size: 1.0rem; }
   @media (min-width: 769px) {
     small {
-      font-size: 20px;
-      font-size: 2.0rem; } }
+      font-size: 10px;
+      font-size: 1.0rem; } }
 
 .profile-photo {
   text-align: center; }
@@ -205,7 +206,7 @@ small {
       margin-left: 200px; } }
 
 .about-text h2 {
-  font-family: "Yusei Magic";
+  font-family: "Noto+Sans";
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: normal; }
@@ -216,13 +217,13 @@ small {
       width: 500px; } }
 
 .about-text p {
-  font-family: "Yusei Magic";
-  font-size: 20px;
-  font-size: 2.0rem; }
+  font-family: "Noto+Sans";
+  font-size: 15px;
+  font-size: 1.5rem; }
   @media (min-width: 769px) {
     .about-text p {
-      font-size: 24px;
-      font-size: 2.4rem;
+      font-size: 15px;
+      font-size: 1.5rem;
       width: 500px; } }
 
 .about-text {

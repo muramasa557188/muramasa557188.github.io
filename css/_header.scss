@@ -105,7 +105,7 @@ span {
     list-style: none;
     li {
         margin: 0 0 0 3rem;
-        width: 120px;
+        width: 70px;
     }
     }
 }
@@ -115,13 +115,14 @@ a {
     font-family: "Rock Salt";
     color: $black;
     @media (min-width: 769px) {
-    font-size: 28px;
+    font-size: 16px;
+    font-size: 1.6rem;
     }
 }
 
 .pc-nav-list a:hover{
     @media (min-width: 769px) {
-    font-size: 30px;
-    font-size: 3.0rem;
+    font-size: 20px;
+    font-size: 2.0rem;
     }
 }
