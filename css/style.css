@@ -13,11 +13,18 @@ html {
         width: 90%;
     }
 }*/
-.header {
+.header-box {
+  width: 90%;
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; }
+
+.header {
+  /*display: flex;
+  justify-content: space-between;*/
   margin-top: 20px;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 769px) {
@@ -35,16 +42,18 @@ html {
 
 .header h2 {
   font-size: 30px;
-  font-size: 3.0rem; }
+  font-size: 3.0rem;
+  text-align: left; }
   @media (min-width: 769px) {
     .header h2 {
       font-size: 48px;
-      font-size: 4.8rem; } }
+      font-size: 4.8rem;
+      text-align: left; } }
 
 .nav-button {
   /*display: flex;
   justify-content: flex-end;*/
-  align-items: center;
+  /*align-items: center;*/
   height: 9rem;
   font-size: 4.1rem;
   color: #000000;
@@ -160,11 +169,15 @@ a {
 
 footer {
   margin-top: 350px;
-  height: 50px; }
+  height: 50px;
+  /*width: 80%;*/
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 769px) {
     footer {
       margin-top: 160px;
-      height: 50px; } }
+      height: 50px;
+      text-align: center; } }
 
 .footer {
   text-align: center;
@@ -178,10 +191,18 @@ small {
   @media (min-width: 769px) {
     small {
       font-size: 10px;
-      font-size: 1.0rem; } }
+      font-size: 1.0rem;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.about-main {
+  text-align: center; }
 
 .profile-photo {
-  text-align: center; }
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 769px) {
     .profile-photo {
       text-align: left; } }
@@ -189,7 +210,9 @@ small {
 .profile-icon {
   width: 165px;
   height: 165px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 769px) {
     .profile-icon {
       width: 415px;
@@ -198,7 +221,11 @@ small {
       margin-top: 40px; } }
 
 .about-box {
-  margin-top: 75px; }
+  margin-top: 75px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
   @media (min-width: 769px) {
     .about-box {
       width: 90%;
@@ -209,7 +236,8 @@ small {
   font-family: "Noto+Sans";
   font-size: 24px;
   font-size: 2.4rem;
-  font-weight: normal; }
+  font-weight: normal;
+  /*width: 80%;*/ }
   @media (min-width: 769px) {
     .about-text h2 {
       font-size: 24px;
@@ -218,8 +246,11 @@ small {
 
 .about-text p {
   font-family: "Noto+Sans";
+  /*width: 100%;*/
   font-size: 15px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 25px;
+  text-align: left; }
   @media (min-width: 769px) {
     .about-text p {
       font-size: 15px;
@@ -227,14 +258,21 @@ small {
       width: 500px; } }
 
 .about-text {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
+  /*width: 80%;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  text-align: left; }
   @media (min-width: 769px) {
     .about-text {
       width: 90%;
       margin-left: 85px;
       margin-top: 51px; } }
+
+.skill {
+  margin-top: 70px; }
+  @media (min-width: 769px) {
+    .skill {
+      margin-top: 70px; } }
 
 .work-main {
   text-align: center; }
@@ -263,24 +301,30 @@ small {
       margin-top: 127px; } }
 
 .work-box, .work-box3 {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 50px; }
   @media (min-width: 769px) {
     .work-box, .work-box3 {
-      display: flex; } }
+      display: flex;
+      padding-bottom: 100px; } }
 
 .work-box2 {
-  margin-top: 60px; }
+  margin-top: 60px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 50px; }
   @media (min-width: 769px) {
     .work-box2 {
       display: flex;
       flex-direction: row-reverse;
-      margin-top: 81px; } }
+      padding-bottom: 100px;
+      margin-top: 100px; } }
 
 .work-box3 {
   margin-top: 60px; }
   @media (min-width: 769px) {
     .work-box3 {
-      margin-top: 81px; } }
+      margin-top: 100px; } }
 
 .work-box img:hover {
   opacity: 0.5; }
@@ -292,56 +336,57 @@ small {
   opacity: 0.5; }
 
 .work-box h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 22px;
+  font-size: 2.2rem;
   width: 100%;
   margin-top: 38px;
   text-align: center; }
   @media (min-width: 769px) {
     .work-box h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .work-box2 h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 22px;
+  font-size: 2.2rem;
   width: 100%;
   margin-top: 38px; }
   @media (min-width: 769px) {
     .work-box2 h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .work-box3 h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 22px;
+  font-size: 2.2rem;
   width: 100%;
   margin-top: 38px; }
   @media (min-width: 769px) {
     .work-box3 h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .work-text, .work-text2, .work-text3 {
-  font-family: "Yusei Magic";
-  font-size: 20px;
-  font-size: 2.0rem;
+  font-family: "Noto+Sans";
+  font-size: 15px;
+  font-size: 1.5rem;
   width: 100%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  line-height: 30px; }
   @media (min-width: 769px) {
     .work-text, .work-text2, .work-text3 {
-      font-size: 24px;
-      font-size: 2.4rem;
+      font-size: 15px;
+      font-size: 1.5rem;
       width: 90%; } }
 
 .work-text p, .work-text2 p, .work-text3 p {
@@ -365,23 +410,17 @@ small {
 @media (min-width: 769px) {
   .work-text h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 100%;
     text-align: left; } }
 
 @media (min-width: 769px) {
   .work-text2 h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 100%; } }
 
 @media (min-width: 769px) {
   .work-text3 h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 100%; } }
 
 @media (min-width: 769px) {
@@ -421,24 +460,30 @@ small {
       margin-top: 127px; } }
 
 .hobby-box, .hobby-box3 {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 50px; }
   @media (min-width: 769px) {
     .hobby-box, .hobby-box3 {
-      display: flex; } }
+      display: flex;
+      padding-bottom: 100px; } }
 
 .hobby-box2 {
-  margin-top: 60px; }
+  margin-top: 60px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 50px; }
   @media (min-width: 769px) {
     .hobby-box2 {
       display: flex;
       flex-direction: row-reverse;
-      margin-top: 81px; } }
+      padding-bottom: 100px;
+      margin-top: 100px; } }
 
 .hobby-box3 {
   margin-top: 60px; }
   @media (min-width: 769px) {
     .hobby-box3 {
-      margin-top: 81px; } }
+      margin-top: 100px; } }
 
 .hobby-box img:hover {
   opacity: 0.5; }
@@ -450,65 +495,69 @@ small {
   opacity: 0.5; }
 
 .hobby-box h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 20px;
+  font-size: 2.0rem;
   width: 100%;
   margin-top: 38px;
   text-align: center; }
   @media (min-width: 769px) {
     .hobby-box h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .hobby-box2 h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 20px;
+  font-size: 2.0rem;
   width: 100%;
   margin-top: 38px; }
   @media (min-width: 769px) {
     .hobby-box2 h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .hobby-box3 h2 {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: "Noto+Sans";
+  font-size: 20px;
+  font-size: 2.0rem;
   width: 100%;
   margin-top: 38px; }
   @media (min-width: 769px) {
     .hobby-box3 h2 {
       margin-top: 0;
-      font-size: 30px;
-      font-size: 3.0rem;
+      font-size: 25px;
+      font-size: 2.5rem;
       width: 100%; } }
 
 .hobby-text, .hobby-text2, .hobby-text3 {
-  font-family: "Yusei Magic";
-  font-size: 20px;
-  font-size: 2.0rem;
+  font-family: "Noto+Sans";
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 30px;
   width: 100%;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 769px) {
     .hobby-text, .hobby-text2, .hobby-text3 {
-      font-size: 24px;
-      font-size: 2.4rem;
+      font-size: 15px;
+      font-size: 1.5rem;
       width: 90%; } }
 
 .hobby-text p, .hobby-text2 p, .hobby-text3 p {
   text-align: left;
   margin-top: 20px;
-  width: 100%; }
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 769px) {
     .hobby-text p, .hobby-text2 p, .hobby-text3 p {
-      width: 70%; } }
+      width: 70%;
+      margin-left: 0; } }
 
 @media (min-width: 769px) {
   .hobby-text, .hobby-text3 {
@@ -523,23 +572,17 @@ small {
 @media (min-width: 769px) {
   .hobby-text h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 500px;
     text-align: left; } }
 
 @media (min-width: 769px) {
   .hobby-text2 h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 500px; } }
 
 @media (min-width: 769px) {
   .hobby-text3 h2 {
     margin-top: 0;
-    font-size: 30px;
-    font-size: 3.0rem;
     width: 500px; } }
 
 @media (min-width: 769px) {
@@ -552,29 +595,66 @@ small {
     .hobby-h2-2 {
       display: block; } }
 
-/*コメント*/
+@media (min-width: 769px) {
+  .hobby-h3 {
+    display: none; } }
+
+.hobby-h3-2 {
+  display: none; }
+  @media (min-width: 769px) {
+    .hobby-h3-2 {
+      display: block; } }
+
+/*hobby-top*/
 .hobby-top {
-  font-family: "Yusei Magic";
+  font-family: "Noto+Sans";
   text-align: left;
-  font-size: 20px;
-  font-size: 2.0rem;
+  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 40px;
-  width: 100%; }
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 769px) {
     .hobby-top {
       margin-top: 137px;
-      font-size: 24px;
-      font-size: 2.4rem;
+      font-size: 20px;
+      font-size: 2.0rem;
       line-height: 50px;
       width: 100%; } }
 
 .hobby-top span {
-  font-size: 40px;
-  font-size: 4.0rem; }
+  font-size: 35px;
+  font-size: 3.5rem;
+  display: inline-block; }
   @media (min-width: 769px) {
     .hobby-top span {
       font-size: 48px;
       font-size: 4.8rem; } }
+
+.lightbox-p {
+  font-family: "Noto+Sans";
+  color: #ffffff;
+  font-size: 20px; }
+
+.lightbox-text {
+  font-family: "Noto+Sans";
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px; }
+  @media (min-width: 769px) {
+    .lightbox-text {
+      font-size: 15px;
+      font-size: 1.5rem;
+      line-height: 30px; } }
+
+.t-span {
+  font-family: "Rock Salt";
+  color: #ffffff; }
+
+.t-span:hover {
+  background-color: #0e1ee7;
+  opacity: 0.9; }
 
 .contact-main {
   width: 80%;
@@ -593,47 +673,51 @@ small {
       margin-left: 250px; } }
 
 .contact-box p {
-  font-family: "Yusei Magic";
-  font-size: 24px;
-  font-size: 2.4rem; }
+  font-family: "Noto+Sans";
+  font-size: 20px;
+  font-size: 2.0rem; }
   @media (min-width: 769px) {
     .contact-box p {
       width: 250px;
       margin-top: 10px;
-      font-size: 30px;
-      font-size: 3.0rem; } }
+      font-size: 20px;
+      font-size: 2.0rem; } }
 
 .button {
-  font-family: "Yusei Magic";
-  width: 82px;
-  height: 40px;
+  font-family: "Noto+Sans";
+  width: 70px;
+  height: 30px;
   border-radius: 10px;
-  font-size: 24px;
-  font-size: 2.4rem; }
+  font-size: 20px;
+  font-size: 2.0rem; }
   @media (min-width: 769px) {
     .button {
-      width: 130px;
-      height: 74px;
+      width: 80px;
+      height: 50px;
       margin-left: 550px;
-      font-size: 30px;
-      font-size: 3.0rem; } }
+      font-size: 20px;
+      font-size: 2.0rem; } }
 
 #message {
   width: 300px;
-  height: 40px; }
+  height: 100px; }
   @media (min-width: 769px) {
     #message {
-      width: 450px;
-      height: 250px;
-      margin-left: 50px; } }
+      width: 400px;
+      height: 150px;
+      margin-left: 50px;
+      font-size: 15px; } }
 
 .box {
   width: 300px;
-  height: 40px; }
+  height: 30px;
+  font-size: 15px; }
   @media (min-width: 769px) {
     .box {
-      width: 450px;
-      height: 50px;
+      width: 400px;
+      height: 30px;
       margin-left: 50px; } }
+
+/*@import "hobby-box";*/
 
 /*# sourceMappingURL=style.css.map */

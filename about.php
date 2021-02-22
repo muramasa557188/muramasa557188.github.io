@@ -67,18 +67,13 @@
            <p>1977年生まれ。栃木県出身。<br>大学卒業後、派遣社員、ビル管理員等を経て、現在は埼玉県にて製造業の会社で勤務。<br>その傍ら、webプログラミングに興味を持ち、
               techacademyにてプログラミングを学ぶ。</p>
            <h2 class="skill">Skill</h2>
-           <p>HTML、CSS、GitHub、photoshop。また、Wordpressを今後学習予定。</p>
+           <p>HTML、CSS。また、Wordpressを今後学習予定。</p>
          </div>
         </div>
        
    </main>
    
-   <footer>
-       <div class="footer">
-       <small>©Masayoshi Itou.</small>
-       </div>
-   </footer>
-   
+   <?php include './parts/footer.php'; ?>
    
    <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

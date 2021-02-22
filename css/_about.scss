@@ -3,8 +3,16 @@
 //
 
 
+.about-main{
+    text-align: center;
+}
+
+
 .profile-photo {
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     @media (min-width: 769px)  {
         text-align: left;
     }
@@ -14,6 +22,8 @@
     width: 165px;
     height: 165px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
     @media (min-width: 769px)  {
         width: 415px;
         height: 415px;
@@ -24,6 +34,10 @@
 
 .about-box{
     margin-top: 75px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     @media (min-width: 769px)  {
         width: 90%;
         display: flex;
@@ -36,6 +50,7 @@
     font-size: 24px;
     font-size: 2.4rem;
     font-weight: normal;
+    /*width: 80%;*/
     @media (min-width: 769px)  {
         font-size: 24px;
         font-size: 2.4rem;
@@ -45,8 +60,11 @@
 
 .about-text p {
     font-family: "Noto+Sans";
+    /*width: 100%;*/
     font-size: 15px;
     font-size: 1.5rem;
+    line-height: 25px;
+    text-align: left;
     @media (min-width: 769px)  {
         font-size: 15px;
         font-size: 1.5rem;
@@ -55,12 +73,20 @@
 }
 
 .about-text {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 80%;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    text-align: left;
      @media (min-width: 769px)  {
         width: 90%;
         margin-left: 85px;
         margin-top: 51px;
+    }
+}
+
+.skill {
+    margin-top: 70px;
+    @media (min-width: 769px)  {
+        margin-top: 70px;
     }
 }

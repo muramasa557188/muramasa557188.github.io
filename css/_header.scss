@@ -3,11 +3,21 @@
 //
 
 
-.header {
+
+
+.header-box {
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    /*display: flex;
+    justify-content: space-between;*/
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     @media (min-width: 769px)  { 
@@ -28,9 +38,11 @@
 .header h2 {
     font-size: 30px;
     font-size: 3.0rem;
+    text-align: left;
     @media (min-width: 769px)  {
         font-size: 48px;
         font-size: 4.8rem;
+        text-align: left;
     }
 }
 
@@ -39,7 +51,7 @@
 .nav-button {
     /*display: flex;
     justify-content: flex-end;*/
-    align-items: center;
+    /*align-items: center;*/
     height: 9rem;
     font-size: 4.1rem;
     color: $black;

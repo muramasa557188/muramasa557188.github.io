@@ -22,49 +22,51 @@
 }
 
 .contact-box p {
-    font-family: "Yusei Magic";
-    font-size: 24px;
-    font-size: 2.4rem;
+    font-family: "Noto+Sans";
+    font-size: 20px;
+    font-size: 2.0rem;
     @media (min-width: 769px)  { 
         width: 250px;
         margin-top: 10px;
-        font-size: 30px;
-        font-size: 3.0rem;
+        font-size: 20px;
+        font-size: 2.0rem;
     } 
 }
 
 .button {
-    font-family: "Yusei Magic";
-    width: 82px;
-    height: 40px;
+    font-family: "Noto+Sans";
+    width: 70px;
+    height: 30px;
     border-radius: 10px;
-    font-size: 24px;
-    font-size: 2.4rem;
+    font-size: 20px;
+    font-size: 2.0rem;
     @media (min-width: 769px)  { 
-        width: 130px;
-        height: 74px;
+        width: 80px;
+        height: 50px;
         margin-left: 550px;
-        font-size: 30px;
-        font-size: 3.0rem;
+        font-size: 20px;
+        font-size: 2.0rem;
     } 
 }
 
 #message {
     width: 300px;
-    height: 40px;
+    height: 100px;
     @media (min-width: 769px)  { 
-        width: 450px;
-        height: 250px;
+        width: 400px;
+        height: 150px;
         margin-left: 50px;
+        font-size: 15px;
         } 
 }
 
 .box {
     width: 300px;
-    height: 40px;
+    height: 30px;
+    font-size: 15px;
     @media (min-width: 769px)  { 
-        width: 450px;
-        height: 50px;
+        width: 400px;
+        height: 30px;
         margin-left: 50px;
     }  
 }
